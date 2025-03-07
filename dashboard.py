@@ -5,7 +5,7 @@ import streamlit as st
 sns.set(style='darkgrid')
 
 # Load the data
-all_df = pd.read_csv("dashboard/main_data.csv")
+all_df = pd.read_csv("main_data.csv")
 
 # Sidebar: Add logo and title
 st.sidebar.markdown("<h1 style='text-align: center; font-size: 50px;'>🚴</h1>", unsafe_allow_html=True)
